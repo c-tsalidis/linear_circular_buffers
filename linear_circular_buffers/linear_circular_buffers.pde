@@ -60,7 +60,7 @@ void draw() {
   i = 2 --> x[2] = x[2-1] --> x[2] = x[1];
         --> y[2] = y[2-1] --> y[2] = y[1];
   i = 1 --> x[1] = x[1-1] --> x[1] = x[0]; 
-        --> y[1] = y[1-1] --> y[0] = y[2];
+        --> y[1] = y[1-1] --> y[1] = y[0];
         
   Second run of draw(): the same process as the previous frame
   And so on...
